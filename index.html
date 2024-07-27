@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="garland">
+            <img src="./images/garland.png" alt="" class="g1">
+            <img src="./images/garland.png" alt="" class="g2">
+            <img src="./images/garland.png" alt="" class="g3">
+            <img src="./images/garland.png" alt="" class="g4">
+            <img src="./images/garland.png" alt="" class="g5">
+            <img src="./images/garland.png" alt="" class="g6">
+            <img src="./images/garland.png" alt="" class="g7">
+        </div>
+
+        <div class="ribbon">
+            <!-- <img src="./images/ribbon.png" alt="" class="r1">
+            <img src="./images/ribbon.png" alt="" class="r2"> -->
+
+            <div class="r1">
+                <div class="r11"></div>
+                <div class="r12"></div>
+            </div>
+            <div class="r2">
+                <div class="r21"></div>
+                <div class="r22"></div>
+            </div>
+        </div>
+
+        <div class="hbday">
+            <div class="hbinline">
+                <div class="happy">
+                    <h1 class="hpy H1">H</h1>
+                    <h1 class="hpy A1">A</h1>
+                    <h1 class="hpy P1">P</h1>
+                    <h1 class="hpy P2">P</h1>
+                    <h1 class="hpy Y1">Y</h1>
+                </div>
+               
+        
+                <div class="birthday">
+                    <h1 class="bday B1">B</h1>
+                    <h1 class="bday I1">I</h1>
+                    <h1 class="bday R1">R</h1>
+                    <h1 class="bday T1">T</h1>
+                    <h1 class="bday H2">H</h1>
+                    <h1 class="bday D1">D</h1>
+                    <h1 class="bday A2">A</h1>
+                    <h1 class="bday Y2">Y</h1>
+                </div>
+            </div>
+            
+            
+            <div class="naam">
+                <h1 id="name" class="nm G1">G</h1>
+                <h1 id="name" class="nm A3">A</h1>
+                <h1 id="name" class="nm U1">U</h1>
+                <h1 id="name" class="nm T2">T</h1>
+                <h1 id="name" class="nm A4">A</h1>
+                <h1 id="name" class="nm M1">M</h1>
+                <h1 id="name" class="nm I2">I</h1>
+            </div>
+            
+        </div>
+
+        <div class="section2">
+            <div class="dino">
+                <img src="./images/birthday.png" alt="" class="d1 dd">
+                <img src="./images/birthday.png" alt="" class="d2 dd">
+                <img src="./images/birthday.png" alt="" class="d3 dd">
+                <img src="./images/birthday.png" alt="" class="d4 dd">
+                <img src="./images/birthday.png" alt="" class="d5 dd">
+                <img src="./images/birthday.png" alt="" class="d6 dd">
+                <img src="./images/birthday.png" alt="" class="d7 dd">
+                <img src="./images/birthday.png" alt="" class="d8 dd">
+            </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            
+            <div id="floor"> 
+                <div id="strip">
+                    <div class="strips"></div>
+                    <div class="strips"></div>
+                    <div class="strips"></div>
+                    <div class="strips"></div>
+                    <div class="strips"></div>
+                    <div class="strips"></div>
+                    <div class="strips"></div>
+                </div>
+    
+                <div id="table">
+                    <div id="circle1">
+                        
+                    </div>
+                    <div id="stick">
+        
+                    </div>
+                    <div id="circle2">
+                        
+                    </div>
+                </div>
+                <div id="cake">
+                   <img src="./images/cake.png" alt="" class="ck">
+                </div>  
+        
+                <!-- <div class="candle">
+                    <div class="flame"></div>
+                </div> -->
+        
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <!-- <div class="popcontainer">
+        <div class="popup">
+            <p>Enter Your Name:  </p><input type="name" class="nam" id="name">
+             
+        </div>
+    </div> -->
+    
+
+    
+    <script src="confetti.min.js"></script>
+    
+    <script>
+
+        // start
+
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 100); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  Stop
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 10000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+
+        start();
+        stop();
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
